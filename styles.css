@@ -1,0 +1,106 @@
+
+body {
+  background-color: #2E4D75;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #C2BF9F;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic, bold;
+}
+
+.button {
+  border: none;
+  outline: 1;
+  display: inline-block;
+  padding: 12px;
+  color: white;
+  background-color: #5B5A4B;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Top Navigation Bar */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #1A2B42;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #1677F5;
+  color: white;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #087c10;
+  color: white;
+
+/* End of Top Nagivation Bar */
+
+/* Meet the team */
