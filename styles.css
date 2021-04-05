@@ -21,6 +21,13 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+.list {
+  list-style-type: disc;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  line-height: 18pt;
+}
+
 
 .column {
   float: left;
@@ -53,7 +60,8 @@ html {
 .title {
   color: #C2BF9F;
   font-family: Arial, Helvetica, sans-serif;
-  font-style: italic, bold;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .button {
@@ -67,6 +75,7 @@ html {
   cursor: pointer;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .button:hover {
