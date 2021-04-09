@@ -53,35 +53,29 @@ html {
   margin-bottom: 16px;
   padding: 0 8px;
 }
-
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
     display: block;
   }
 }
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-
 .container {
   padding: 0 16px;
 }
-
 .container::after, .row::after {
   content: "";
   clear: both;
   display: table;
 }
-
 .title {
   color: #C2BF9F;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-weight: bold;
 }
-
 .button {
   border: none;
   outline: 1;
@@ -100,6 +94,114 @@ html {
   background-color: #555;
 }
 
+/* Meet the Team Buttons */
+.btnlayout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border: 6px solid black;
+  background-color: white;
+  color: black;
+  padding: 72px 72px;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  float: none;
+}
+
+.meettheteam {
+  border-color: #D97738;
+  color: #D97738;
+}
+
+.meettheteam:hover {
+  background-color: #D97738;
+  color: white;
+}
+
+.jobs {
+  border-color: #087c10;
+  color: #087c10;
+}
+
+.jobs:hover {
+  background: #087c10;
+  color: white;
+}
+
+.interview {
+  border-color: #087c10;
+  color: #087c10;
+}
+
+.interview:hover {
+  background: #087c10;
+  color: white;
+}
+
+.technologies {
+  border-color: #D97738;
+  color: #D97738;
+}
+
+.technologies:hover {
+  background: #D97738;
+  color: white;
+}
+
+.log {
+  border-color: #087c10;
+  color: #087c10;
+}
+
+.log:hover {
+  background: #087c10;
+  color: white;
+}
+
+.github {
+  border-color: #D97738;
+  color: #D97738;
+}
+
+.github:hover {
+  background: #D97738;
+  color: white;
+}
+
+.reflection {
+  border-color: #D97738;
+  color: #D97738;
+}
+
+.reflection:hover {
+  background: #D97738;
+  color: white;
+}
+
+.project {
+  border-color: #087c10;
+  color: #087c10;
+}
+
+.project:hover {
+  background: #087c10;
+  color: white;
+}
+
+.industrydata {
+  border-color: #D97738;
+  color: #D97738;
+}
+
+.industrydata:hover {
+  background: #D97738;
+  color: white;
+}
+
 /* Top Navigation Bar */
 /* Add a black background color to the top navigation */
 .topnav {
@@ -107,7 +209,8 @@ html {
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
+/* Style the links inside the navigation bar*/
+
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -129,5 +232,3 @@ html {
   color: white;
 
 /* End of Top Nagivation Bar */
-
-/* Meet the team */
