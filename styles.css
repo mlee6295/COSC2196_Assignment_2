@@ -1,6 +1,14 @@
 
 body {
-  background-color: #2E4D75;
+  background-image: linear-gradient(to bottom right, #57BC90, #77c9D4);
+  background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
 }
 h1 {
   font-family: Helvetica, sans-serif;
@@ -71,7 +79,7 @@ html {
   display: table;
 }
 .title {
-  color: #C2BF9F;
+  color: #000000;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-weight: bold;
@@ -112,93 +120,93 @@ html {
   float: none;
 }
 
-.meettheteam {
-  border-color: #D97738;
-  color: #D97738;
+.home {
+  border-color: #1A2B42;
+  color: #1A2B42;
 }
 
-.meettheteam:hover {
-  background-color: #D97738;
+.home:hover {
+  background-color: #015249;
   color: white;
 }
 
 .jobs {
-  border-color: #087c10;
-  color: #087c10;
+  border-color: #1A2B42;
+  color: #1A2B42;
 }
 
 .jobs:hover {
-  background: #087c10;
+  background: #1A2B42;
   color: white;
 }
 
 .interview {
-  border-color: #087c10;
-  color: #087c10;
+  border-color: #1A2B42;
+  color: #1A2B42;
 }
 
 .interview:hover {
-  background: #087c10;
+  background: #1A2B42;
   color: white;
 }
 
 .technologies {
-  border-color: #D97738;
-  color: #D97738;
+  border-color: #1A2B42;
+  color: #1A2B42;
 }
 
 .technologies:hover {
-  background: #D97738;
+  background: #1A2B42;
   color: white;
 }
 
 .log {
-  border-color: #087c10;
-  color: #087c10;
+  border-color: #1A2B42;
+  color: #1A2B42;
 }
 
 .log:hover {
-  background: #087c10;
+  background: #015249;
   color: white;
 }
 
 .github {
-  border-color: #D97738;
-  color: #D97738;
+  border-color: #1A2B42;
+  color: #1A2B42;
 }
 
 .github:hover {
-  background: #D97738;
+  background: #1A2B42;
   color: white;
 }
 
 .reflection {
-  border-color: #D97738;
-  color: #D97738;
+  border-color: #1A2B42;
+  color: #1A2B42;
 }
 
 .reflection:hover {
-  background: #D97738;
+  background: #015249;
   color: white;
 }
 
 .project {
-  border-color: #087c10;
-  color: #087c10;
+  border-color: #1A2B42;
+  color: #1A2B42;
 }
 
 .project:hover {
-  background: #087c10;
+  background: #015249;
   color: white;
 }
 
 .industrydata {
-  border-color: #D97738;
-  color: #D97738;
+  border-color: #1A2B42;
+  color: #1A2B42;
 }
 
 .industrydata:hover {
-  background: #D97738;
+  background: #015249;
   color: white;
 }
 
@@ -228,7 +236,7 @@ html {
 }
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #087c10;
+  background-color: #015249;
   color: white;
 
 /* End of Top Nagivation Bar */
