@@ -150,6 +150,11 @@ a:active {
   background-color: #1A2B42;
   overflow: hidden;
 }
+ul {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 
 /* Style the links inside the navigation bar*/
 
