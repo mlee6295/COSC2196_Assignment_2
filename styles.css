@@ -10,6 +10,11 @@ body {
     -moz-background-size: cover;
     -ms-background-size: cover;
 }
+ul {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 h1 {
   font-family: Helvetica, sans-serif;
   color: white;
@@ -150,11 +155,7 @@ a:active {
   background-color: #1A2B42;
   overflow: hidden;
 }
-ul {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
+
 /* Style the links inside the navigation bar*/
 
 .topnav a {
