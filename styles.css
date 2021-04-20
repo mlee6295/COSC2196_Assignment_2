@@ -10,10 +10,6 @@ body {
     -moz-background-size: cover;
     -ms-background-size: cover;
 }
-ul {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 }
 h1 {
   font-family: Helvetica, sans-serif;
@@ -156,6 +152,7 @@ a:active {
   overflow: hidden;
 }
 
+
 /* Style the links inside the navigation bar*/
 
 .topnav a {
@@ -166,6 +163,19 @@ a:active {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
+}
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }
 
 /* Change the color of links on hover */
