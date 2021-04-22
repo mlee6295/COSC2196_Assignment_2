@@ -33,6 +33,11 @@ ul {
   color: white;
   font-size: 17px
 }
+ol {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 17px
+}
 html {
   box-sizing: border-box;
 }
