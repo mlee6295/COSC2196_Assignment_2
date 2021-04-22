@@ -12,19 +12,21 @@ body {
   margin-right: 100px;
   margin-left: 100px;
   margin-bottom: 85px;
-  font-size: 15px;
 }
 h1 {
   font-family: Helvetica, sans-serif;
   color: white;
+  font-size: 20px;
 }
 h2 {
   font-family: Helvetica, sans-serif;
   color: white;
+  font-size; 17px
 }
 p {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+  font-size: 15px
 }
 html {
   box-sizing: border-box;
