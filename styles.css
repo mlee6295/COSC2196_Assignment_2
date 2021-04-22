@@ -21,12 +21,17 @@ h1 {
 h2 {
   font-family: Helvetica, sans-serif;
   color: white;
-  font-size: 27px
+  font-size: 25px
 }
 p {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  font-size: 25px
+  font-size: 20px
+}
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px
 }
 html {
   box-sizing: border-box;
